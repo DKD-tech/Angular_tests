@@ -1,0 +1,19 @@
+<div class="col-md-5">
+   <form action="" [formGroup]="updateForm" (ngSubmit)="onUpdate">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" placeholder="name book" formControlName="name" required>
+    </div>
+    <div class="form-group">
+        <label for="name">Price</label>
+        <input type="text" class="form-control" placeholder="price book" formControlName="price" required>
+    </div>
+    <div class="form-group">
+        <label for="name">Description</label>
+        <input type="text" class="form-control" placeholder="description book" formControlName="description" required>
+    </div>
+    <div class="form-group">
+        <button class="btn btn-primary btn-block" type="submit">mis à jour</button>
+    </div>
+   </form> 
+</div>
